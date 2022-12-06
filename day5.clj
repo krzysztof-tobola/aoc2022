@@ -1,6 +1,5 @@
 (ns day5
-  (:require [clojure.string :as s]
-            [clojure.set :as set]))
+  (:require [clojure.string :as s]))
 
 (defn parse-stack-line [line]
   (->> (partition-all 4 line)
